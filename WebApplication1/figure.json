@@ -1,0 +1,209 @@
+[
+  {
+    "$type": "WebApplication1.Figures.Square, WebApplication1",
+    "Side": 26.133062378796886,
+    "Area": 682.9369492940891,
+    "Perimeter": 104.53224951518754,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": -5.0,
+        "CoordinateY": -5.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 2.620265527555416,
+        "CoordinateY": -31.133062378796886
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": -21.190058982823494,
+        "CoordinateY": -23.87542257614296
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": -28.810324510378905,
+        "CoordinateY": 2.2576398026539284
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 2.5,
+      "CoordinateY": 2.5
+    },
+    "Id": 1
+  },
+  {
+    "$type": "WebApplication1.Figures.Rectangle, WebApplication1",
+    "SideA": 10.0,
+    "SideB": 7.0,
+    "Area": 70.0,
+    "Perimeter": 34.0,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 9.880316240928618,
+        "CoordinateY": -8.219550403199941
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 8.458735867525872,
+        "CoordinateY": -7.277738387751041
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 1.0797601492130884,
+        "CoordinateY": -1.0668371738577584
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 4.25,
+      "CoordinateY": 4.25
+    },
+    "Id": 2
+  },
+  {
+    "$type": "WebApplication1.Figures.Triangle, WebApplication1",
+    "SideA": 3.0,
+    "SideB": 5.0,
+    "SideC": 4.0,
+    "Area": 6.0,
+    "Perimeter": 12.0,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 3.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 4.0
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 1.0,
+      "CoordinateY": 1.3333333333333333
+    },
+    "Id": 3
+  },
+  {
+    "$type": "WebApplication1.Figures.Circle, WebApplication1",
+    "Radius": 10.0,
+    "Area": 314.1592653589793,
+    "Perimeter": 62.83185307179586,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 10.0,
+        "CoordinateY": 5.0
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 0.0,
+      "CoordinateY": 5.0
+    },
+    "Id": 4
+  },
+  {
+    "$type": "WebApplication1.Figures.Circle, WebApplication1",
+    "Radius": 7.211102550927978,
+    "Area": 163.36281798666923,
+    "Perimeter": 45.308693596555905,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 6.0,
+        "CoordinateY": 4.0
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 0.0,
+      "CoordinateY": 0.0
+    },
+    "Id": 5
+  },
+  {
+    "$type": "WebApplication1.Figures.Square, WebApplication1",
+    "Side": 5.0,
+    "Area": 25.0,
+    "Perimeter": 20.0,
+    "Points": [
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 0.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 5.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "WebApplication1.Figures.Point, WebApplication1",
+        "Id": 0,
+        "CoordinateX": 5.0,
+        "CoordinateY": 0.0
+      }
+    ],
+    "Center": {
+      "$type": "WebApplication1.Figures.Point, WebApplication1",
+      "Id": 0,
+      "CoordinateX": 2.5,
+      "CoordinateY": 2.5
+    },
+    "Id": 6
+  }
+]
