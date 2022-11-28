@@ -2,8 +2,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using WebApplication1.Database;
 
 #nullable disable
@@ -18,29 +18,29 @@ namespace WebApplication1.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.0")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("WebApplication1.Figures.Circle", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Area")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<int>("CenterId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<double>("Perimeter")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("Radius")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
@@ -53,27 +53,27 @@ namespace WebApplication1.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("CircleId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<double>("CoordinateX")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("CoordinateY")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<int?>("RectangleId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int?>("SquareId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int?>("TriangleId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -92,24 +92,24 @@ namespace WebApplication1.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Area")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<int>("CenterId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<double>("Perimeter")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("SideA")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("SideB")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
@@ -122,18 +122,18 @@ namespace WebApplication1.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Area")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<int>("CenterId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<double>("Perimeter")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
@@ -146,27 +146,27 @@ namespace WebApplication1.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Area")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<int>("CenterId")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<double>("Perimeter")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("SideA")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("SideB")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<double>("SideC")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 

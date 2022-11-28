@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aHaIt2Ak06NOEJV64/lhxJSb35nElAU/+JGu39Ddk7GgZMoaiGVyKF9qVM2B8SOP7hMLUZ9YwtmwV6asCvPGkw==",
+  "dgSpecHash": "Avb0/R0wpzjSP8r3qtDGhFkxqEcjDO6x7JWpgtrVXCfrfjqWLJZ/W27HxNBnlpjc2oJIiRGzEqIBK1ne1PZMzA==",
   "success": true,
   "projectFilePath": "/Users/gulchinnl/Projects/WebApplication1/WebApplication1/WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "/Users/gulchinnl/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/gulchinnl/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/gulchinnl/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/gulchinnl/.nuget/packages/npgsql/7.0.0/npgsql.7.0.0.nupkg.sha512",
+    "/Users/gulchinnl/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.0/npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
     "/Users/gulchinnl/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/gulchinnl/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/gulchinnl/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

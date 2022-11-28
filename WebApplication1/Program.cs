@@ -11,9 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<FigureDbContext>
     (options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("FigureDbContext")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("FigureDbContext")));
 var app = builder.Build();
-
+//x => x.MigrationsAssembly("FigureDbContext")
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

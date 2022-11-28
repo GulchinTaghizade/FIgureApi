@@ -10,11 +10,6 @@ namespace WebApplication1.Controllers
     [Route("[controller]")]
     public class FigureController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
      
         private readonly FigureDbContext  _context;
 
